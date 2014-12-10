@@ -1,6 +1,7 @@
-Rent our appartements
-=====================
+KuhElla
+=======
 
-Dies wird unsere noch nie da gewesene Webseite über tolle Naturappartements.
+Kuh Ella Webseite
 
-In diesem Branch soll die Grundstruktur und das Design der Webseite entstehen.
+Hier ist eine Webseite für die Pension Haus Kuh Ella entstanden
+
