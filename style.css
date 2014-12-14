@@ -1,5 +1,5 @@
 /*
-Design Name: KuhElla
+Design Name: HouseOfNature
 Author: Matthias Nattke and Elisabet Peinelt 2014
 
 */
@@ -54,289 +54,31 @@ table {
 	border-spacing: 0;
 }
 
-/* ------------------------------------------- */
+/* Basics and main styles
+------------------------------------------- */
 
-/* fonts */
-
+@import url('http://fonts.googleapis.com/css?family=Domine:400,700|PT+Serif:400,700,400italic,700italic');
 
 h1 {
-    font: bold 4.5em/1.2em 'PT Serif';
-    font-family: 'PT Serif', serif;
+    font: bold 2.0em/1.2em 'PT Serif';
     margin: 0 auto 0 auto;
     text-align: center;
-    color: #3fcc00;
+    color: #4e5a49;
     letter-spacing:-1.2px;
 }
 
 h2 {
-    font: bold 1.9em/2em "PT Serif";
-    font-family: 'PT Serif', serif;
+    font: bold 1.7em/1.2em 'PT Serif';
     margin: 0 auto 0 auto;
+    color: #4e5a49;
     text-align: center;
     letter-spacing:-1.2px;
 }
 
 p {
-    font: 1.25em/1.0em "Domine";
-    font-family: 'Domine', serif;
+    /*font: 1.25em/1.0em "Domine";
+    font-family: 'Domine', serif;*/
     color: #000;
-}
-
-a {
-    color: #ea7b0a;
-    text-decoration: none;
-    width: auto; 
-}
-
-a:hover {
-    color: #1f6d9f;
-    text-decoration: none;
-    width: auto; 
-}
-
-strong {
-    font-weight: bold;
-    color: #000;
-}
-
-/*  Layout */
-
-
-html {
-    height: 100%;
-}
-
-body {
-	font-family:Calibri, sans-serif;
-	font-size: 100%;
-    color: #393939;
-    height: 100%;
-    background: #fff; 
-}
-
-header {
-    margin-top: 40px;
-}
-
-footer {
-    background: #436c33;
-    float: inherit;
-}
-
-.mainNav {
-    min-height: 40px;
-    max-width: 500px;
-    
-    margin: 0 auto;
-}
-
-.mainNav ul { 
-    min-height: 40px;
-    padding: 0;
-    white-space: inherit;
-}
-
-.mainNav li {
-    font: 1.25em "PT Serif";
-    position: relative;
-    float: left;
-    
-    margin-right: 10px;
-    padding: 5px 10px;
-    /*background: #fff;*/
-    list-style: none;
-    /*display: none;*/
-}
-
-
-
-nav .footerNav {
-    min-height: 40px;
-    max-width: 30px;
-    
-    margin: 0 auto;
-}
-
-.footerNav ul { 
-    min-height: 40px;
-    padding: 0;
-    white-space: inherit;
-}
-
-.footerNav li {
-    font: 1.0em "PT Serif";
-    position: relative;
-    float: left;
-    margin-right: 10px;
-    padding: 5px 10px;
-    background: #fff;
-    list-style: none;
-    /*display: none;*/
-    
-}
-
-.mobil {
-    display: none;
-}
-
-img {
-    display: block;
-    margin: -20px auto;
-    max-width: 80%;
-
-    height: auto;
-    
-}
-
-.yellowline {
-    background: #ffeb00;
-    height: 5px;
-    margin: 0px auto;
-    width: 50%;
-}
-        
-
-.mainNav a {
-    color: #000;
-    text-decoration: none;
-    width: auto; 
-    -moz-text-shadow: 1px 1.732px 16px rgba(0, 0, 0, 0.004);
-    text-shadow: 1px 1.732px 16px rgba(0, 0, 0, 0.004);
-    -webkit-text-shadow: 0 1px 0 #E2007A, 0 -1px 0 #E2007A, 1px 0 0 #E2007A, -1px 0 0 #E2007A;
-}
- .footerNav {
-    min-height: 40px;
-    max-width: 320px;
-    
-    margin: 0 auto;
-
- }
-.footerNav a {
-    color: #000;
-    text-decoration: none;
-    width: auto; 
-    -moz-text-shadow: 1px 1.732px 16px rgba(0, 0, 0, 0.004);
-    text-shadow: 1px 1.732px 16px rgba(0, 0, 0, 0.004);
-    -webkit-text-shadow: 0 1px 0 #E2007A, 0 -1px 0 #E2007A, 1px 0 0 #E2007A, -1px 0 0 #E2007A;
-}
-
-
-.mainNav a:hover, .footerNav a:hover {
-    color: #ea7b0a;
-    text-decoration: none;
-    width: auto; 
-}
-
-.shadowb {
-    box-shadow: inset 0 -10px 10px -10px #000000;
-    -moz-box-shadow: inset 0 -10px 10px -10px #000000;
-    -webkit-box-shadow: inset 0 -10px 10px -10px #000000;
-}
-
-.shadowu {
-    box-shadow: inset 0 10px 10px -10px #000000;
-    -moz-box-shadow: inset 0 10px 10px -10px #000000;
-    -webkit-box-shadow: inset 0 10px 10px -10px #000000;
-}
-
-.shadowpic {
-    -moz-box-shadow:    inset  0 -220px 80px -80px rgba(0, 0, 0, 0.7);;
-    -webkit-box-shadow: inset  0 -220px 80px -80px rgba(0, 0, 0, 0.7);;
-     box-shadow:        inset  0 -220px 80px -80px rgba(0, 0, 0, 0.7);;
-}
-
-.house {
-    width: 100%;
-    min-height: 90%;
-    display: block;
-    margin: 0px 0 60px 0;
-    background: #fff url(images/pic3.JPG) top no-repeat;
-    background-size: cover;
-    float: left;
-    position: relative;
-    -moz-text-shadow: 0px -1px 12px rgba(0, 0, 0, 1); 
-    -webkit-text-shadow: 0px -1px 12px rgba(0, 0, 0, 1);  
-    text-shadow: 0px -1px 14px rgba(0, 0, 0, 1);
-    text-align: center;
-}
-
-.winter {
-    width: 100%;
-    min-height: 90%;
-    display: block;
-    margin: 0px 0 0px 0;
-    background: #fff url(images/winter.jpg) top no-repeat;
-    background-size: cover;
-    float: left;
-    position: relative;
-    -moz-text-shadow: 0px -1px 12px rgba(0, 0, 0, 1); 
-    -webkit-text-shadow: 0px -1px 12px rgba(0, 0, 0, 1);  
-    text-shadow: 0px -1px 14px rgba(0, 0, 0, 1);
-    text-align: center;
-}
-
-
-.welcome p {
-    font: 2.5em "PT Serif";
-    position: relative;
-    margin-top: 17%;
-    color: #fff;
-    width: 100%;  
-    
-}
-
-
-.welcome a {
-    color: #fff;
-        
-}
-
-.welcome a:hover {
-    color: #ea7b0a;
-        
-}
- 
-.welcome address {
-    font: 1.13em "PT Serif"; 
-    position: relative; 
-    width: 100%;
-    color: #fff;
-    top: 45%;
-    z-index: 100;
-}
-
-#introduction {
-    white-space: pre-wrap;
-    margin: 290px 0 0 0px;
-    position: inherit;
-    text-align: center;
-}
-
-
-#introduction p{
-    max-width: 820px;
-    text-align: center;
-    max-width: 90%;
-    max-width: 900px;
-    font: 20px/1.8em "Domine";
-    margin: 0 auto 20px auto;
-}
-
-
-#text {
-    white-space: pre-wrap;
-    margin: 10px 0 0 0px;
-    position: inherit;
-    text-align: center;
-}
-
-#text p{
-    max-width: 820px;
-    text-align: center;
-    max-width: 90%;
-    max-width: 900px;
-    font: 20px/1.8em "Domine";
-    margin: 0 auto;
 }
 
 .white p {
@@ -348,16 +90,184 @@ img {
     font-weight: bold;
 }
 
+a {
+    color: #ea7b0a;
+    text-decoration: none;
+    width: auto; 
+}
+
+a:hover {
+    color: #1f6d9f;
+}
+
+.white a {
+    color: #fff;    
+}
+
+.white a:hover {
+    color: #ea7b0a;     
+}
+
+nav a {
+    color: #000;
+    -moz-text-shadow: 1px 1.732px 16px rgba(0, 0, 0, 0.004);
+    text-shadow: 1px 1.732px 16px rgba(0, 0, 0, 0.004);
+    -webkit-text-shadow: 0 1px 0 #E2007A, 0 -1px 0 #E2007A, 1px 0 0 #E2007A, -1px 0 0 #E2007A;
+}
+
+
+nav a:hover {
+    color: #ea7b0a;
+    text-decoration: none;
+    width: auto; 
+}
+
+strong {
+    font-weight: bold;
+    color: #000;
+}
+
+.yellowline {
+    background: #ffeb00;
+    height: 5px;
+    margin: 0px auto;
+    width: 50%;
+}
+
+.shadowbottom {
+    box-shadow: inset 0 -10px 10px -10px #000000;
+    -moz-box-shadow: inset 0 -10px 10px -10px #000000;
+    -webkit-box-shadow: inset 0 -10px 10px -10px #000000;
+}
+
+.shadowtop {
+    box-shadow: inset 0 10px 10px -10px #000000;
+    -moz-box-shadow: inset 0 10px 10px -10px #000000;
+    -webkit-box-shadow: inset 0 10px 10px -10px #000000;
+}
+
+.shadowpic {
+    -moz-box-shadow:    inset  0 -220px 80px -80px rgba(0, 0, 0, 0.7);;
+    -webkit-box-shadow: inset  0 -220px 80px -80px rgba(0, 0, 0, 0.7);;
+     box-shadow:        inset  0 -220px 80px -80px rgba(0, 0, 0, 0.7);;
+}
+
+.shadowtext {
+    -moz-text-shadow: 0px -1px 12px rgba(0, 0, 0, 1); 
+    -webkit-text-shadow: 0px -1px 12px rgba(0, 0, 0, 1);  
+    text-shadow: 0px -1px 14px rgba(0, 0, 0, 1);
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    color: #393939;
+}
+
+header {
+    display: block;
+}
+
+footer {
+    background: #436c33;
+    display: block;
+}
+
+header nav {
+    min-height: 40px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+header nav ul { 
+    min-height: 40px;
+    white-space: inherit;
+}
+
+header nav li {
+    font: 1.25em 'PT Serif';
+    position: relative;
+    float: left;
+    margin-right: 10px;
+    padding: 5px 10px;
+    list-style: none;
+}
+
+footer nav {
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+footer nav ul { 
+    min-height: 40px;
+    padding: 0;
+    white-space: inherit;
+}
+
+footer nav li {
+    font: 1.0em 'PT Serif';
+    position: relative;
+    float: left;
+    margin-right: 10px;
+    padding: 5px 10px;
+    background: #fff;
+    list-style: none;
+    /*display: none;*/  
+}
+
+.mobil {
+    display: none;
+}
+
+header img {
+    display: block;
+    margin: 0px auto;
+    max-width: 80%;
+}
+
+figure{
+    background: #fff top no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.bigpicture p {
+    font: 2.5em 'PT Serif';
+    position: absolute;
+    color: #fff;
+    width: 100%;
+    
+}
+
+.bigpicture address {
+    font: 1.13em 'PT Serif'; 
+    position: absolute; 
+    width: 100%;
+    color: #fff;
+    margin-top: 5%;
+}
+
+figure {
+    height: 100%;
+}
+
+.description {
+    white-space: pre-line;
+    margin: 30px 0 0 0px;
+    text-align: center;
+}
+
+.description p{
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    text-align: center;
+    font: 20px/1.8em 'Domine';
+    color: #807c7c; 
+}
+
 #introduction p {
-   color: #4b4b4b; 
-}
-
-
-.left {
-
-}
-
-.right {
 
 }
 
@@ -367,135 +277,25 @@ img {
 
 /* iPad Landscape */
 @media screen and (max-width: 1120px) {
-
 	
-    .welcome p {
-        margin-top: 12%;  
-    }
- 
-    .welcome address {
-        font-size: 0.9em;
-    }
-    
-    #introduction p{
-        max-width: 500%;
-    }
-
-    
-    h1 {
-        font: bold 4em/1.7em 'PT Serif';
-    }
 
 }
 
 /* iPad Portrait */
 @media screen and (max-width: 940px) {
     
-    .normal {
-        display: none;
-    }
-    
-    .mobil {
-        display: block;   
-    }
-
-    .house {
-        min-height: 105%;
-    }
-    
-    h1 {
-        font: bold 3em/1.9em 'PT Serif';
-    }
-	
-    .welcome p {
-        margin-top: 18%;  
-    }
- 
-    .welcome address {
-        margin-top: 25%;
-        font-size: 1.2em;
-    }
-
-    .mainNav ul { 
-        
-    }
-
-    .mainNav li {
-
-    }
     
 }
 
 /* Smartphones and small Tablet PCs */
 @media screen and (max-width : 620px) {
     
-    header {
-        margin-top: -200px;
-    }
-    
-    .house {
-        height: 80%;
-        margin: -30px 0 60px 0;
-    }
-	
-    .house p {
-        top: 100%;  
-        font-size: 1.2em;
-    }
- 
-    .house address {
-        top: 100%;
-        font-size: 0.9em;
-    }
-    
-    .welcome p {
-        margin-top: 50%;  
-    }
- 
-    .welcome address {
-        margin-top: 50%;
-        font-size: 0.7em;
-    }
 
-    
-    h1 {
-        font: bold 1.8em/1.7em 'PT Serif';
-        color: #000;   
-        -moz-text-shadow: 0px -1px 12px rgba(0, 0, 0, 0); 
-        -webkit-text-shadow: 0px -1px 12px rgba(0, 0, 0, 0);  
-        text-shadow: 0px -1px 12px rgba(0, 0, 0, 0);
-    }
-    
-    h2 {
-        font: bold 1.9em/1.5em "PT Serif";
-    }
-    
-    #introduction p{
-        font: 15px/1.8em "Domine";
-     }
-    
-    
-    .mainNav li {
-        font: 1.25em "PT Serif";
-        position: relative;
-        float: none;
-        text-align: center;
-        display: block;
-    }
     
 }
 
 /* Smartphones and small Tablet PCs */
 @media screen and (max-width : 620px) and (orientation:landscape) {
     
-    .welcome p {
-        margin-top: 10%;  
-        font-size: 1.2em;
-    }
- 
-    .welcome address {
-        margin-top: 7%;
-        font-size: 0.6em;
-    }
     
 }
