@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Rent our Apartments</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0,maximum-scale=1.0">
+        <script src="js/jquery.min.js"></script>
+		<script src="js/init.js"></script>
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><img src="images/logo.png" alt="rent our apartments logo"/></a>
+            <nav>
+                <ul>
+                    <li><a href="apartments.html">Apartments</a></li>
+                    <li><a href="offers.html">Offers</a></li>
+                    <li><a href="costs.html">Costs</a></li>
+                    <li><a href="leisurer-activities.html">Leisurer Activities</a></li>
+                </ul>
+            </nav>
+            <div class="yellowline"></div>
+        </header>
+        <main>
+            <div class="description">
+                <h2>Apartment 2</h2>
+                <div class="pic-overview">
+                    <div class="pic-container">
+                        <figure><img src="images/appartment2/ap-2-bathroom.jpg" alt="Ap2-bathroom"/></figure>
+                        <figure><img src="images/appartment2/ap-2-bbq-place.jpg" alt="AP2-bbq-place"/></figure>
+                        <figure><img src="images/appartment2/ap-2-bedroom.jpg" alt="AP2-bedrom"/></figure>
+                        <figure><img src="images/appartment2/ap-2-kitchen.jpg" alt="AP2-kitchen"/></figure>
+                    </div>
+                </div>
+                <p>Features Amenities
+                    •	Air Conditioning
+                    •	Dishwasher
+                    •	Public Fireplace
+                    •	High Speed Internet Available
+                </p> <!-- unbedingt noch als Liste bauen -->
+            </div>
+        </main>
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="imprint.html">Imprint</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tos.html">Terms of Service</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>
+

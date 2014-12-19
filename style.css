@@ -75,10 +75,22 @@ h2 {
     letter-spacing:-1.2px;
 }
 
-p {
+p, table {
     /*font: 1.25em/1.0em "Domine";
     font-family: 'Domine', serif;*/
     color: #000;
+}
+
+thead{
+    background: #436c33
+}
+
+th, td{
+    color: #ffffff
+}
+
+tbody{
+    background: #628e51
 }
 
 .white p {
@@ -124,7 +136,7 @@ nav a:hover {
 
 strong {
     font-weight: bold;
-    color: #000;
+    color: #4e5a49;
 }
 
 .yellowline {
@@ -195,6 +207,18 @@ header nav li {
     list-style: none;
 }
 
+header nav liclick {
+    font: 1.25em 'PT Serif';
+    color: #4e5a49;
+    background-color: #ffeb00;
+    position: relative;
+    float: left;
+    margin-right: 10px;
+    padding: 5px 10px;
+    list-style: none;
+}
+
+
 footer nav {
     max-width: 320px;
     margin: 0 auto;
@@ -235,9 +259,20 @@ figure{
 
 .bigpicture p {
     font: 2.5em 'PT Serif';
+    margin: 0px 0 0 0;
     position: absolute;
     color: #fff;
     width: 100%;
+    
+}
+
+.bigpicture h {
+    font: 2.5em 'PT Serif';
+    margin: -200px 0 0 -50px;
+    position: absolute;
+    color: #fff;
+    width: 6%;
+    text-align: justify;
     
 }
 
@@ -249,8 +284,45 @@ figure{
     margin-top: 5%;
 }
 
-figure {
-    height: 100%;
+.bigpicture .subtitle {
+    font: 1.13em 'PT Serif'; 
+    position: absolute; 
+    width: 100%;
+    color: #fff;
+    margin-top: -130px;
+    white-space: pre-line;
+}
+
+
+.arrow-container {
+    max-width: 80%;
+    margin:auto;
+    text-align:left;
+}
+
+.pic-container {
+    max-width: 80%;
+    margin: 0px auto;    
+    display: table;
+    min-height: 50px;
+}
+
+.pic-overview {
+    /*display: block;*/
+    /*background: #003723;*/
+    min-height: 100px;
+    
+}
+
+.pic-overview figure {
+    display: table-cell;
+    padding: 0 4px;
+    text-align: center;
+    background: none;
+}
+
+.pic-overview img {
+    width: 100%;
 }
 
 .description {
@@ -259,7 +331,7 @@ figure {
     text-align: center;
 }
 
-.description p{
+.description p, .description table{
     max-width: 800px;
     margin: 0 auto 20px auto;
     text-align: center;
@@ -267,9 +339,6 @@ figure {
     color: #807c7c; 
 }
 
-#introduction p {
-
-}
 
 /* Media queries for responsive design
 --------------------------------------------- */
