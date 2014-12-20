@@ -14,4 +14,4 @@
 	<!-- circles -->
 	<svg:circle cx="198" cy="187" r="50" style="fill:darkblue" />
     <svg:circle cx="198" cy="187" r="5" style="fill:white" />
-</svg:svg>
+</svg:svg> 

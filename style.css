@@ -259,7 +259,7 @@ figure{
 
 .bigpicture p {
     font: 2.5em 'PT Serif';
-    margin: 0px 0 0 0;
+    margin: 20% 0 0 0;
     position: absolute;
     color: #fff;
     width: 100%;
@@ -268,7 +268,7 @@ figure{
 
 .bigpicture h {
     font: 2.5em 'PT Serif';
-    margin: -200px 0 0 -50px;
+    margin: 0x 0 0 50px;
     position: absolute;
     color: #fff;
     width: 6%;
@@ -281,7 +281,7 @@ figure{
     position: absolute; 
     width: 100%;
     color: #fff;
-    margin-top: 5%;
+    margin-top: 25%;
 }
 
 .bigpicture .subtitle {
@@ -291,13 +291,6 @@ figure{
     color: #fff;
     margin-top: -130px;
     white-space: pre-line;
-}
-
-
-.arrow-container {
-    max-width: 80%;
-    margin:auto;
-    text-align:left;
 }
 
 .pic-container {
@@ -338,6 +331,18 @@ figure{
     font: 20px/1.8em 'Domine';
     color: #807c7c; 
 }
+
+#offers img {
+    margin: 4% 0% 8% 0;
+    max-width: 13%;
+}
+
+#offers .subtitle {
+ color: darkblue;   
+}
+
+
+
 
 
 /* Media queries for responsive design
