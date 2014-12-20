@@ -1,3 +1,5 @@
+@import url('http://fonts.googleapis.com/css?family=Domine:400,700|PT+Serif:400,700,400italic,700italic');
+
 /*
 Design Name: House Of Nature
 Author: Matthias Nattke and Elisabet Peinelt 2014
@@ -56,8 +58,6 @@ table {
 
 /* Basics and main styles
 ------------------------------------------- */
-
-@import url('http://fonts.googleapis.com/css?family=Domine:400,700|PT+Serif:400,700,400italic,700italic');
 
 h1 {
     font: bold 2.0em/1.2em 'PT Serif';
