@@ -198,7 +198,7 @@ header nav ul {
     white-space: inherit;
 }
 
-header nav li {
+header nav li, header nav liclick, header .apartments nav  {
     font: 1.25em 'PT Serif';
     position: relative;
     float: left;
@@ -208,14 +208,15 @@ header nav li {
 }
 
 header nav liclick {
-    font: 1.25em 'PT Serif';
-    color: #4e5a49;
     background-color: #ffeb00;
-    position: relative;
-    float: left;
-    margin-right: 10px;
-    padding: 5px 10px;
-    list-style: none;
+}
+
+.apartments nav {
+    margin-top: 10px;   
+}
+
+.apartments liclick {
+    background-color: #ffc05a;   
 }
 
 
@@ -239,6 +240,28 @@ footer nav li {
     background: #fff;
     list-style: none;
     /*display: none;*/  
+}
+
+.button-green, .button-red, .button-orange {
+    color: white;
+    border-radius: 5px;
+    font: 1.8em 'PT Serif';   
+    padding: 10px 25px;
+    margin: 50px;
+    border: 0px;
+    
+}
+
+.button-green {
+    background: #358809;
+}
+
+.button-red {
+    background: #a22c00;
+}
+
+.button-orange {
+    background: #ff8900;
 }
 
 .mobil {
@@ -341,7 +364,18 @@ figure{
  color: darkblue;   
 }
 
+.apartments img {
+    max-width: 65%;
+    float: left;
+}
 
+.apartments figcaption {
+    margin-top: 10%;
+}
+
+.apartments liclick {
+    
+}
 
 
 
