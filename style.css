@@ -146,7 +146,7 @@ strong {
 }
 
 video {
-    width: 100%;
+    width: 50%;
     height: auto;
 }
 
@@ -396,6 +396,10 @@ figure{
 
 /* iPad Portrait */
 @media screen and (max-width: 940px) {
+ 
+video {
+    width: 100%;
+}
     
 .yellowline {
     width: 80%;
