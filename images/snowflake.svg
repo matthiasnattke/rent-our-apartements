@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Size of window -->
+<svg:svg xmlns:svg="http://www.w3.org/2000/svg" version="1.1" width="391" height="385" viewBox="0 0 391 385">
+    <svg:title> SVG snowflake </svg:title>
+    <!-- 7 branches of snow -->
+    <svg:polygon points="187 186, 187 94, 158 64, 167 55, 187 73, 187 34, 199 22, 210 34, 210 73, 230 55, 240 64, 210 94, 210 186" style="fill:darkblue" />
+    <svg:polygon points="187 186, 187 94, 158 64, 167 55, 187 73, 187 34, 199 22, 210 34, 210 73, 230 55, 240 64, 210 94, 210 186" transform="rotate(45, 198, 187)" style="fill:darkblue" />
+    <svg:polygon points="187 186, 187 94, 158 64, 167 55, 187 73, 187 34, 199 22, 210 34, 210 73, 230 55, 240 64, 210 94, 210 186" transform="rotate(90, 198, 187)" style="fill:darkblue" />
+    <svg:polygon points="187 186, 187 94, 158 64, 167 55, 187 73, 187 34, 199 22, 210 34, 210 73, 230 55, 240 64, 210 94, 210 186" transform="rotate(135, 198, 187)" style="fill:darkblue" />
+    <svg:polygon points="187 186, 187 94, 158 64, 167 55, 187 73, 187 34, 199 22, 210 34, 210 73, 230 55, 240 64, 210 94, 210 186" transform="rotate(180, 198, 187)" style="fill:darkblue" />
+    <svg:polygon points="187 186, 187 94, 158 64, 167 55, 187 73, 187 34, 199 22, 210 34, 210 73, 230 55, 240 64, 210 94, 210 186" transform="rotate(225, 198, 187)" style="fill:darkblue" />
+    <svg:polygon points="187 186, 187 94, 158 64, 167 55, 187 73, 187 34, 199 22, 210 34, 210 73, 230 55, 240 64, 210 94, 210 186" transform="rotate(270, 198, 187)" style="fill:darkblue" />
+    <svg:polygon points="187 186, 187 94, 158 64, 167 55, 187 73, 187 34, 199 22, 210 34, 210 73, 230 55, 240 64, 210 94, 210 186" transform="rotate(315, 198, 187)" style="fill:darkblue" />
+	<!-- circles -->
+	<svg:circle cx="198" cy="187" r="50" style="fill:darkblue" />
+    <svg:circle cx="198" cy="187" r="5" style="fill:white" />
+</svg:svg> 
