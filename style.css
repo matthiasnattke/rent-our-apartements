@@ -246,7 +246,7 @@ footer nav li {
     /*display: none;*/  
 }
 
-.button-green, .button-red, .button-orange {
+.button-green, .button-red, .button-yellow {
     color: white;
     border-radius: 5px;
     font: 1.8em 'PT Serif';   
@@ -263,8 +263,8 @@ footer nav li {
     background: #a22c00;
 }
 
-.button-orange {
-    background: #ff8900;
+.button-yellow {
+    background: #ffc400;
 }
 
 .mobil {
@@ -379,7 +379,7 @@ figure{
     float: left;
 }
 
-.button-green, .button-red, .button-orange {
+.button-green, .button-red, .button-yellow {
     margin: 20px;
 }    
     
@@ -409,7 +409,7 @@ video {
     margin-top: 5%;
 }
     
-.button-green, .button-red, .button-orange {
+.button-green, .button-red, .button-yellow {
     margin: 10px;
 } 
     
@@ -512,7 +512,7 @@ footer nav li {
     margin-top: 0%;
 }
     
-.button-green, .button-red, .button-orange {
+.button-green, .button-red, .button-yellow {
     font: 1.2em 'PT Serif';   
     padding: 10px 25px;
     margin: 10px;
